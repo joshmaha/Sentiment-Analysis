@@ -1,7 +1,7 @@
 
 # 🎬 Sentiment Analysis of Movie Reviews
 
-This project implements a sentiment analysis model that classifies movie reviews as **positive** or **negative** using a vectorization approach. It was developed as part of a Computer Applications in AI course project by Joshua Maharaj.
+This project implements a sentiment analysis model that classifies movie reviews as **positive** or **negative** using a vectorization approach. 
 
 ---
 
