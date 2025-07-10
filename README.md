@@ -104,14 +104,3 @@ nltk.download('wordnet')
 
 ---
 
-## 👨‍💻 Author
-
-**Joshua Maharaj**  
-CAI Project 3 – Sentiment Analysis  
-[GitHub Profile](https://github.com/jnmaharaj)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
