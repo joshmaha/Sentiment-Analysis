@@ -2,7 +2,7 @@ import importlib.util
 import time
 
 studentName = "studentName"
-studentFile = "exampleHW3.py"
+studentFile = "testfile.py"
 
 assignmentName = "Sentiment_Analysis"
 trainFunctionName = "calcSentiment_train"

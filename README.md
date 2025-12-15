@@ -22,7 +22,8 @@ The trained model can classify unseen movie reviews into positive or negative se
 
 ```
 AI-and-ML/
-├── sentiment_analysis.py      # Main module with training and testing functions
+├── testFile.py      # Main module with training and testing functions
+├── accuracyScript.py      # Script to evaluate model accuracy on test dataset
 ├── training_model.pkl         # Serialized trained model (Logistic Regression)
 ├── vectorizer.pkl             # Serialized TF-IDF vectorizer
 ├── test_reviews.json          # 1,000 IMDb reviews from the forked repo
@@ -64,24 +65,19 @@ For evaluation, 1,000 movie reviews from the [nas5w/imdb-data](https://github.co
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/jnmaharaj/AI-and-ML.git
-cd AI-and-ML
+git clone https://github.com/joshmaha/Sentiment-Analysis.git
+cd Sentiment-Analysis
 ```
 
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Train the model:
+2. Train the model:
 ```python
-from sentiment_analysis import calcSentiment_train
+from testFile import calcSentiment_train
 calcSentiment_train("train.json")
 ```
 
-4. Test a single review:
+3. Test a single review:
 ```python
-from sentiment_analysis import calcSentiment_test
+from TestFile import calcSentiment_test
 print(calcSentiment_test("This movie was absolutely wonderful!"))
 ```
 

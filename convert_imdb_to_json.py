@@ -1,5 +1,5 @@
 import json
-from hw3 import calcSentiment_test 
+from testFile import calcSentiment_test 
 
 def evaluate_model_from_array(json_file_path):
     correct = 0
@@ -26,5 +26,5 @@ def evaluate_model_from_array(json_file_path):
     print(f"\nAccuracy: {correct}/{total} = {correct/total:.2%}")
 
 
-file_path = r"C:\\Users\\jnmah\\OneDrive\\2025\\Spring 25\\CAI 4002\\Project 3\\reviews.json"
+file_path = r"C:\\Users\\jnmah\\OneDrive\\2025\\Spring 25\\CAI 4002\\Project 3\\reviews.json" # Change file path according to your file location
 evaluate_model_from_array(file_path)
